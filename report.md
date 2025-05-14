@@ -12,7 +12,7 @@ Door deze functionaliteit in een apart subcommando (`visualize`) onder te brenge
 
 ## 2. FIFO-verkooplogica gekoppeld aan `bought_id`
 
-Bij het verkopen van producten moest worden voorkomen dat een product dubbel verkocht wordt. Hiervoor heb ik een systeem gebouwd dat alle aangekochte producten met dezelfde naam opzoekt, en vervolgens controleert of de `bought_id` reeds verkocht is. Alleen het oudste ongebruikte item wordt geselecteerd voor verkoop (First In First Out). Deze aanpak voorkomt dubbele verkopen en maakt winstberekening betrouwbaarder, omdat de originele inkoopprijs van het verkochte item bekend blijft.
+Bij het verkopen van producten moest worden voorkomen dat een product dubbel verkocht wordt. Hiervoor heb ik een systeem gebouwd dat alle aangekochte producten met dezelfde naam opzoekt, en vervolgens controleert of de `bought_id` reeds verkocht is. Alleen het oudste ongebruikte item wordt geselecteerd voor verkoop (First In First Out). Deze aanpak voorkomt dubbele verkopen en maakt winstberekening betrouwbaarder, omdat de originele inkoopprijs van het verkochte item bekend blijft. Ook past dit principe goed binnen het voorraadbeheer van een supermarkt.
 
 ## 3. Rapportage met export en filtering
 
